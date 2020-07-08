@@ -1,0 +1,67 @@
+html{
+  overflow:hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.mob-dis{
+  display:inherit;
+}
+.comp-dis{
+  display: none;
+}
+
+.logo-coff-up{
+  bottom: 6px;
+}
+.img-width{
+    width:25px;
+}
+.center-logo-coff{
+  right: 38%;
+  top: 3.5%;
+    position: absolute;
+}
+.dpimage{
+border-radius: 500px;
+  width:130px;
+}
+.center-text{
+margin-top:20vh;
+}
+.center-text-left{
+
+margin-left: 7vw;
+}
+.center-text-right{
+margin-right: 7vw;
+}
+.contact-icons-heigth{
+
+  outline: none;
+  top:85vh;
+}
+.contact-icon-width{
+    width:10vw;
+margin: 0 20px;
+
+}
+.button-img{
+  width:30vw;
+  outline: none;
+  top:85vh;
+}
+.img-width-2{
+  width:6vw;
+}
+#resumetext{
+position:absolute; bottom:25%;left:30vw;cursor:pointer;
+}
+.font-size-4{
+   font-size:6vw
+}
+.left-botton-position{
+  left:15vw;
+}
+.right-botton-position{
+  right:15vw;
+}

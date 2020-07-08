@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+      <link rel="stylesheet" media="(max-width:500px)" href="./style-m.css">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&family=Source+Sans+Pro:wght@400;600;700&family=Caveat:wght@400;700&family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
+<script  src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"  ></script>
+<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+  </head>
+  <body style="overflow:hidden;">
+    <div class="hamburger ham-bg-close">
+      <div  id="upper" class="line bg-close "></div>
+      <div  id="lower" class="line bg-close " ></div>
+    </div>
+    <div class="nav-links">
+      <ul>
+
+
+
+
+      <li style="color:white;" class="font-size-1 weight600 font-straight">SIDDHARTH SAUMYA</li>
+      <li class="font-size-2"><a class="nav-text-menu" href="know-me.html">Know Me</a></li>
+      <li class="font-size-2"><a class="nav-text-menu" href="contact.html">Contact</a></li>
+      <li class="font-size-2"><a class="nav-text-menu" href="donate.html">Donate</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="center-logo-coff">
+      <a href="index.html">
+    <img class="logo img-width" draggable="false" src="content/logo.png"></a>
+
+    <a href="donate.html">
+      <span class="font-size-4 comp-dis relative logo font-straight weight900 logo-coff-up">DONATE</span>
+        <span class="font-size-2 mob-dis relative logo font-straight weight900 logo-coff-up">DONATE</span></a>
+    </div>
+
+
+    <div style="visibility:hidden" class="toggle">
+    <input type="checkbox" id="checktoggle"/>
+    <label for="checktoggle"></label>
+    </div>
+
+<div style="top:15vh;padding:20px;" class=" font-main absolute comp-dis center-text-left center-text-right font-size-3 padding-10 border-orange bg-orange">
+On the off chance that you like my site and need to help me with my future ventures, you can now!<br />
+Or on the other hand, you can simply get a few snacks for me to keep doing awesome work.
+</div>
+
+<div style="top:15vh;padding:20px;" class=" font-main mob-dis absolute center-text-left center-text-right font-size-1 padding-10 border-orange bg-orange">
+On the off chance that you like my site and need to help me with my future ventures, you can now!<br />
+Or on the other hand, you can simply get a few snacks for me to keep doing awesome work.
+</div>
+
+
+
+
+<div >
+  <main>
+      <p >
+        <input type="image"  src="content/paytm.png" class="button-img left-botton-position absolute  popup1_open ">
+      </p>
+    </main>
+
+    <section  id="popup1">
+  <img class="comp-dis" src="content/paytm-qr.jpg" style="width:30vw;">
+    <img class="mob-dis" src="content/paytm-qr.jpg" style="width:80vw;">
+    </section>
+
+
+    <span style="color:#cfcfcf; top:86vh; left:49.75vw;" class="absolute comp-dis font-size-3">|</span>
+    <a href="https://www.paypal.me/siddharthsaumya">
+  <input type="image"  src="content/paypal.png" class="right-botton-position button-img absolute  "></a>
+</div>
+
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <script>
+
+
+
+
+    $('#popup1').popup();
+
+  </script>
+  </body>
+</html>
